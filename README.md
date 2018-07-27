@@ -1,6 +1,5 @@
 # ECOTOOL
-A new toolbox for time series analysis and forecasting.
-Features found in a few packages or none at all:
+A new toolbox for time series analysis and forecasting. Some Features found in a few packages or none at all:
 
   (1) Multi-seasonal ARIMA models.
   
@@ -19,7 +18,9 @@ Features found in a few packages or none at all:
 To install it just download and run ECOTOOL.mltbx.
 
 For help type 'help ECOTOOL' at Matlab prompt.
+
 For help for each single function type the function name without any input.
+
 For demos showing the power and how to do things run ECOTOOLdemos(#num), where #num is a number between 1 and 11. They will show you how ECOTOOL works step by step.
 
 Further suggestions:
