@@ -19,7 +19,7 @@ To install it just download and run ECOTOOL.mltbx.
 
 For help type 'help ECOTOOL' at Matlab prompt.
 
-For help for each single function type the function name without any input.
+For help for each single function type 'help function_name'. There is a manual available in .pdf format.
 
 For demos showing the power and how to do things run ECOTOOLdemos(#num), where #num is a number between 1 and 11. They will show you how ECOTOOL works step by step.
 
