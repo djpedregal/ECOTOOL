@@ -32,3 +32,4 @@ Further suggestions:
    (3) Check toolFORECAST for forecasting plots and error metrics.
 
    
+File dataPLOSpaper.mat contains all the data used in PLOS paper on ECOTOOL. The data is publicly available at ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt; http://www.omie.es and the Spanish Meteorological Estate Agency (AEMET) weather station located at Ciudad Real, Spain.
