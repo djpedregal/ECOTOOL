@@ -1,35 +1,6 @@
 # ECOTOOL
-A new toolbox for time series analysis and forecasting. Some Features found in a few packages or none at all:
+ECOTOOL embodies several routines for identification, validation and forecasting of dynamic models. The toolbox includes a wide range of exploratory, descriptive and diagnostic statistical tools with visual support, designed in easy-to-use Graphical User Interfaces.
+It also incorporates complex automatic procedures for identification, exact maximum likelihood estimation and outlier detection for many types of models available in the literature (like multi-seasonal ARIMA models, transfer functions, Exponential Smoothing, Unobserved Components, VARX). You may estimate, for example, exponential smoothing or unobserved components models with automatic identification of outliers, something I have never seen before. You also may run the automatic identification of ARIMA models with two seasonalities (like diurnal and weekly)…
+Just with a few lines of code you may run a comprehensive analysis of time series. The toolbox is supplied with an in-depth documentation system and online help, and it containes many demos that will guide you through the process of time series modelling.
 
-  (1) Multi-seasonal ARIMA models.
-  
-  (2) Automatic identification of multi-seasonal ARIMAs.
-  
-  (3) Exact Maximum Likelihood estimation of ARIMA, Unobserved Components, Exponential Smoothing.
-  
-  (4) Automatic detection of outliers in ARIMA, Unobserved Components, Exponential Smoothing.
-  
-  (5) Tell ECOTOOL ARIMA models as you would write them on a paper. Impose constraints as you would like.
-  
-  (6) VARX with and without constraints.
-  
-  (7) ...
-
-To install it just download and run ECOTOOL.mltbx.
-
-For help type 'help ECOTOOL' at Matlab prompt.
-
-For help for each single function type 'help function_name'. There is a manual available in .pdf format.
-
-For demos showing the power and how to do things run ECOTOOLdemos(#num), where #num is a number between 1 and 11. They will show you how ECOTOOL works step by step.
-
-Further suggestions:
-
-   (1) All modelling functions are named model* (modelTF, modelNAIVE, modelAUTO, modelUC, modelETS, modelVARX).
-   
-   (2) Check toolTEST for descriptive statistics, identification and validation.
-   
-   (3) Check toolFORECAST for forecasting plots and error metrics.
-
-   
-File dataPLOSpaper.mat contains all the data used in PLOS paper on ECOTOOL. The data is publicly available at ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt; http://www.omie.es and the Spanish Meteorological Estate Agency (AEMET) weather station located at Ciudad Real, Spain.
+ECOTOOL toolbox for Matlab was published in PLOS ONE, where you can find some examples and a toolbox overview ([here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0221238)).
